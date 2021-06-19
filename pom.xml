@@ -24,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <poi-version>3.17</poi-version>
+        <poi-version>4.1.1</poi-version>
         <postgresql.driver.version>42.2.1</postgresql.driver.version>
         <solr.version>4.10.4</solr.version>
         <jena.version>2.13.0</jena.version>
@@ -33,7 +33,7 @@
         <jersey.version>2.26</jersey.version>
         <hibernate.version>5.2.8.Final</hibernate.version>
         <hibernate-validator.version>5.4.2.Final</hibernate-validator.version>
-        <spring.version>4.3.6.RELEASE</spring.version>
+        <spring.version>4.3.14.RELEASE</spring.version>
         <!-- 'root.basedir' is the path to the root [dspace-src] dir. It must be redefined by each child POM,
              as it is used to reference the LICENSE_HEADER and *.properties file(s) in that directory. -->
         <root.basedir>${basedir}</root.basedir>
@@ -71,7 +71,7 @@
                             </goals>
                             <configuration>
                                 <rules>
-                                    <DependencyConvergence />
+                                    <DependencyConvergence/>
                                 </rules>
                             </configuration>
                         </execution>
